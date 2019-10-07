@@ -72,11 +72,11 @@
 	</head>
 	<body>
 
-		<!-- <style type="text/css">
+		<style type="text/css">
 			body{
-				
+				background: #edeff8;
 			}
-		</style> -->
+		</style>
 
 		<h1><?php echo $site_title;?>
 			<style type="text/css">
@@ -85,6 +85,7 @@
 					font-weight: 700;
 					text-align: center;
 					margin-top: 5%; 
+					text-decoration: underline;
 				}
 			</style>
 		</h1>
@@ -132,6 +133,17 @@
 					echo "<h4>", $photo['name'],"</h4>";
 					}
 				?>  
+
+				<style type="text/css">
+				img{
+					filter: grayscale(100%);
+				}
+				img:hover{
+					filter: none;
+					transition: .4s ease-out;
+				}
+				</style>
+
 				<style type="text/css">
 				h4{
 					color: #6577C0;
