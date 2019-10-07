@@ -20,7 +20,7 @@
 			'name' => 'Whatever'
 		],
 		[
-			'src' => 'https://picsum.photos/seed/5/800/600',
+			'src' => 'https://picsum.photos/seed/16/800/600',
 			'name' => 'Image'
 		],
 		[
